@@ -18,6 +18,7 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
+      //{ path: '', component: MainComponent, canActivate: [AuthGuard]},
       { path: 'login', component: LoginComponent},
       { path: 'main', component: MainComponent},
       { path: '**', redirectTo: 'login'}
