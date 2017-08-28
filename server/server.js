@@ -1,9 +1,3 @@
-/**
- * Created by jason on 8/27/2017.
- */
-/**
- * Created by jason on 8/27/2017.
- */
 // Get dependencies
 const express = require('express');
 const path = require('path');
